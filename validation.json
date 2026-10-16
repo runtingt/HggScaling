@@ -1,0 +1,606 @@
+{
+  "fits": [
+    {
+      "processes": 1,
+      "backend": "combine",
+      "repeat": 0,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 1,
+      "backend": "combine",
+      "repeat": 1,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 1,
+      "backend": "combine",
+      "repeat": 2,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 1,
+      "backend": "cpu",
+      "repeat": 0,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 1,
+      "backend": "cpu",
+      "repeat": 1,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 1,
+      "backend": "cpu",
+      "repeat": 2,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 1,
+      "backend": "codegen",
+      "repeat": 0,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 1,
+      "backend": "codegen",
+      "repeat": 1,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 1,
+      "backend": "codegen",
+      "repeat": 2,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 10,
+      "backend": "combine",
+      "repeat": 0,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 10,
+      "backend": "combine",
+      "repeat": 1,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 10,
+      "backend": "combine",
+      "repeat": 2,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 10,
+      "backend": "cpu",
+      "repeat": 0,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 10,
+      "backend": "cpu",
+      "repeat": 1,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 10,
+      "backend": "cpu",
+      "repeat": 2,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 10,
+      "backend": "codegen",
+      "repeat": 0,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 10,
+      "backend": "codegen",
+      "repeat": 1,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 10,
+      "backend": "codegen",
+      "repeat": 2,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 40,
+      "backend": "combine",
+      "repeat": 0,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 40,
+      "backend": "combine",
+      "repeat": 1,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 40,
+      "backend": "combine",
+      "repeat": 2,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 40,
+      "backend": "cpu",
+      "repeat": 0,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 40,
+      "backend": "cpu",
+      "repeat": 1,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 40,
+      "backend": "cpu",
+      "repeat": 2,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 40,
+      "backend": "codegen",
+      "repeat": 0,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 40,
+      "backend": "codegen",
+      "repeat": 1,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    },
+    {
+      "processes": 40,
+      "backend": "codegen",
+      "repeat": 2,
+      "fit_success": true,
+      "r_agrees": true,
+      "r_error_agrees": true,
+      "same_background_indices": true,
+      "signal_parameters_restored": true,
+      "profiling_present": true,
+      "profiling_dimensions": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "signal_absent_from_profiling": true,
+      "signal_present_in_refit": true,
+      "active_parameters_agree": true,
+      "active_errors_agree": true
+    }
+  ],
+  "profiling_dimension_scaling": {
+    "codegen": {
+      "unchanged": true,
+      "observed": [
+        [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      ]
+    },
+    "combine": {
+      "unchanged": true,
+      "observed": [
+        [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      ]
+    },
+    "cpu": {
+      "unchanged": true,
+      "observed": [
+        [
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+CascadeMinimizer.cc[959] : (in function: applyOptions) - Configured fallback algorithm, type Minuit2, algo Migrad, strategy 0, tolerance 0.1
+Combine.cc[1221] : (in function: addDiscreteNuisances) - Adding discrete pdfindex_ch0 
+Combine.cc[1221] : (in function: addDiscreteNuisances) - Adding discrete pdfindex_ch1 
+ChannelSumNLL.cc[159] : (in function: setup_) - Created nll_model_s_data_obs with 2 channels and 3 constraint terms, RooFit backend "codegen", analytic gradient: yes
+FitterAlgoBase.cc[251] : (in function: doFit) - do first minimization
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=100
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch0 that depends on non-constant category pdfindex_ch0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch1 that depends on non-constant category pdfindex_ch1
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch0 that depends on non-constant category pdfindex_ch0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch1 that depends on non-constant category pdfindex_ch1
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch0 that depends on non-constant category pdfindex_ch0
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch0 that depends on non-constant category pdfindex_ch0
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch1 that depends on non-constant category pdfindex_ch1
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch1 that depends on non-constant category pdfindex_ch1
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch0 that depends on non-constant category pdfindex_ch0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch1 that depends on non-constant category pdfindex_ch1
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch0 that depends on non-constant category pdfindex_ch0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch1 that depends on non-constant category pdfindex_ch1
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch0 that depends on non-constant category pdfindex_ch0
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch0 that depends on non-constant category pdfindex_ch0
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch1 that depends on non-constant category pdfindex_ch1
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch1 that depends on non-constant category pdfindex_ch1
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch0 that depends on non-constant category pdfindex_ch0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch1 that depends on non-constant category pdfindex_ch1
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch0 that depends on non-constant category pdfindex_ch0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch1 that depends on non-constant category pdfindex_ch1
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch0 that depends on non-constant category pdfindex_ch0
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch0 that depends on non-constant category pdfindex_ch0
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch1 that depends on non-constant category pdfindex_ch1
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+ChannelSumNLL.cc[423] : (in function: setMaskNonDiscreteChannels) - Enabling channel ch1 that depends on non-constant category pdfindex_ch1
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+CascadeMinimizer.cc[268] : (in function: improveOnce) - Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1
+CascadeMinimizer.cc[313] : (in function: improveOnce) - Minimization finished with status=0
+CascadeMinimizer.cc[317] : (in function: improveOnce) - Minimization success! status=0
+FitterAlgoBase.cc[255] : (in function: doFit) - Minimized in 0.255769 seconds (0.220000 CPU time)
+FitterAlgoBase.cc[259] : (in function: doFit) - FINAL NLL - NLL0 VALUE = -103.1557254
+
+FitterAlgoBase.cc[261] : (in function: doFit) - FINAL CATEGORIES
+FitterAlgoBase.cc[264] : (in function: doFit) - pdfindex_ch0=0
+FitterAlgoBase.cc[264] : (in function: doFit) - ,pdfindex_ch1=0
+FitterAlgoBase.cc[354] : (in function: doFit) - Running Minos for POI r
+CascadeMinimizer.cc[367] : (in function: minos) - Minos finished with status=0
+FitterAlgoBase.cc[358] : (in function: doFit) - Run Minos in 0.043082 seconds (0.040000 CPU time)

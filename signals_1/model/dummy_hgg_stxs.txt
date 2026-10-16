@@ -1,0 +1,34 @@
+imax 2
+jmax 1
+kmax *
+------------
+shapes * * shapes.root w:shape_$PROCESS_$CHANNEL
+shapes data_obs * shapes.root w:data_obs_$CHANNEL
+------------
+bin ch0 ch1
+observation -1 -1
+------------
+bin ch0 ch1 ch0 ch1
+process sig000 sig000 bkg bkg
+process 0 0 1 1
+rate 60 60 1500 1500
+------------
+signal_norm lnN 1.02 1.02 - -
+theta_scale param 0 1
+theta_resolution param 0 1
+pdfindex_ch0 discrete
+bkg_norm_ch0 rateParam ch0 bkg 1 [0.2,3]
+slope_ch0 flatParam
+bern2_c1_ch0 flatParam
+bern2_c2_ch0 flatParam
+bern3_c1_ch0 flatParam
+bern3_c2_ch0 flatParam
+bern3_c3_ch0 flatParam
+pdfindex_ch1 discrete
+bkg_norm_ch1 rateParam ch1 bkg 1 [0.2,3]
+slope_ch1 flatParam
+bern2_c1_ch1 flatParam
+bern2_c2_ch1 flatParam
+bern3_c1_ch1 flatParam
+bern3_c2_ch1 flatParam
+bern3_c3_ch1 flatParam

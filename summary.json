@@ -1,0 +1,128 @@
+[
+  {
+    "backend": "codegen",
+    "signal_processes": 1,
+    "repetitions": 3,
+    "median_wall_seconds": 16.201154185459018,
+    "median_peak_rss_kib": 652852,
+    "median_stage_components_seconds": {
+      "Likelihood setup and compilation": 14.203580277000002,
+      "Initial continuous fit (including approximate prefit)": 0.01087753,
+      "Discrete background-model profiling": 0.026842361999999995,
+      "Continuous refit at selected models": 0.011658135
+    },
+    "median_profiling_elapsed_seconds": 0.0349903
+  },
+  {
+    "backend": "codegen",
+    "signal_processes": 10,
+    "repetitions": 3,
+    "median_wall_seconds": 18.463862819597125,
+    "median_peak_rss_kib": 671700,
+    "median_stage_components_seconds": {
+      "Likelihood setup and compilation": 16.202773661000002,
+      "Initial continuous fit (including approximate prefit)": 0.036771490000000004,
+      "Discrete background-model profiling": 0.06721394900000001,
+      "Continuous refit at selected models": 0.03710245
+    },
+    "median_profiling_elapsed_seconds": 0.077379
+  },
+  {
+    "backend": "codegen",
+    "signal_processes": 40,
+    "repetitions": 3,
+    "median_wall_seconds": 24.224568100646138,
+    "median_peak_rss_kib": 830140,
+    "median_stage_components_seconds": {
+      "Likelihood setup and compilation": 20.826725786,
+      "Initial continuous fit (including approximate prefit)": 0.17577770000000004,
+      "Discrete background-model profiling": 0.34241739,
+      "Continuous refit at selected models": 0.18143950000000003
+    },
+    "median_profiling_elapsed_seconds": 0.35395
+  },
+  {
+    "backend": "combine",
+    "signal_processes": 1,
+    "repetitions": 3,
+    "median_wall_seconds": 1.765613205730915,
+    "median_peak_rss_kib": 483840,
+    "median_stage_components_seconds": {
+      "Likelihood setup and compilation": 0.11266500000000002,
+      "Initial continuous fit (including approximate prefit)": 0.019040817,
+      "Discrete background-model profiling": 0.021540531,
+      "Continuous refit at selected models": 0.008756172999999999
+    },
+    "median_profiling_elapsed_seconds": 0.0300968
+  },
+  {
+    "backend": "combine",
+    "signal_processes": 10,
+    "repetitions": 3,
+    "median_wall_seconds": 2.7811380606144667,
+    "median_peak_rss_kib": 494784,
+    "median_stage_components_seconds": {
+      "Likelihood setup and compilation": 0.837986,
+      "Initial continuous fit (including approximate prefit)": 0.05098706,
+      "Discrete background-model profiling": 0.026746761999999997,
+      "Continuous refit at selected models": 0.02382372
+    },
+    "median_profiling_elapsed_seconds": 0.0388362
+  },
+  {
+    "backend": "combine",
+    "signal_processes": 40,
+    "repetitions": 3,
+    "median_wall_seconds": 5.264142483472824,
+    "median_peak_rss_kib": 534580,
+    "median_stage_components_seconds": {
+      "Likelihood setup and compilation": 3.01274,
+      "Initial continuous fit (including approximate prefit)": 0.1648617,
+      "Discrete background-model profiling": 0.034217621999999996,
+      "Continuous refit at selected models": 0.07083132
+    },
+    "median_profiling_elapsed_seconds": 0.0484741
+  },
+  {
+    "backend": "cpu",
+    "signal_processes": 1,
+    "repetitions": 3,
+    "median_wall_seconds": 1.8419380011036992,
+    "median_peak_rss_kib": 487056,
+    "median_stage_components_seconds": {
+      "Likelihood setup and compilation": 0.021292806,
+      "Initial continuous fit (including approximate prefit)": 0.00954716,
+      "Discrete background-model profiling": 0.017628161,
+      "Continuous refit at selected models": 0.008825996000000001
+    },
+    "median_profiling_elapsed_seconds": 0.026874040000000002
+  },
+  {
+    "backend": "cpu",
+    "signal_processes": 10,
+    "repetitions": 3,
+    "median_wall_seconds": 3.026809594593942,
+    "median_peak_rss_kib": 498816,
+    "median_stage_components_seconds": {
+      "Likelihood setup and compilation": 0.05265842,
+      "Initial continuous fit (including approximate prefit)": 0.027248429999999997,
+      "Discrete background-model profiling": 0.015708785,
+      "Continuous refit at selected models": 0.02892812
+    },
+    "median_profiling_elapsed_seconds": 0.02416515
+  },
+  {
+    "backend": "cpu",
+    "signal_processes": 40,
+    "repetitions": 3,
+    "median_wall_seconds": 5.155884158797562,
+    "median_peak_rss_kib": 542604,
+    "median_stage_components_seconds": {
+      "Likelihood setup and compilation": 0.17534017999999998,
+      "Initial continuous fit (including approximate prefit)": 0.0943834,
+      "Discrete background-model profiling": 0.018131875999999998,
+      "Continuous refit at selected models": 0.09781023999999999
+    },
+    "median_profiling_elapsed_seconds": 0.027339210000000003
+  }
+]

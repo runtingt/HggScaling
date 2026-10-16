@@ -1,0 +1,925 @@
+{
+  "signal_processes": 1,
+  "backend": "codegen",
+  "repeat": 1,
+  "mask_channels": 2,
+  "command": [
+    "combine",
+    "-M",
+    "MultiDimFit",
+    "/home/hep/tr1123/CHEP26/diagnostics/dummy_hgg_stxs/scaling/signals_1/model/dummy_hgg_stxs.root",
+    "-m",
+    "125.38",
+    "--algo",
+    "none",
+    "--setParameters",
+    "r=1,pdfindex_ch0=1,pdfindex_ch1=1",
+    "--setParameterRanges",
+    "r=0.5,1.5",
+    "--saveFitResult",
+    "--saveWorkspace",
+    "--saveNLL",
+    "--cminDefaultMinimizerStrategy",
+    "0",
+    "--cminApproxPreFitTolerance",
+    "100",
+    "--cminFallbackAlgo",
+    "Minuit2,Migrad,0:0.1",
+    "--X-rtd",
+    "MINIMIZER_MaxCalls=9999999",
+    "--X-rtd",
+    "MINIMIZER_analytic",
+    "--X-rtd",
+    "MINIMIZER_freezeDisassociatedParams",
+    "--X-rtd",
+    "MINIMIZER_multiMin_hideConstants",
+    "--X-rtd",
+    "MINIMIZER_multiMin_maskChannels=2",
+    "--X-rtd",
+    "OPTIMIZE_BOUNDS=0",
+    "--X-rtd",
+    "NO_INITIAL_SNAP",
+    "--X-rtd",
+    "CACHINGPDF_NOCLONE",
+    "-n",
+    ".benchmark",
+    "--nllbackend",
+    "codegen",
+    "-v",
+    "3"
+  ],
+  "cwd": "/home/hep/tr1123/CHEP26/diagnostics/dummy_hgg_stxs/scaling/signals_1/codegen/repeat_1",
+  "root_version": "6.41.01",
+  "root_commit": "v6-39-99-2155-g14a58f74211",
+  "combine_commit": "1f77e99d3110bcbfa07ce7bdbfad039e96d47c7f",
+  "model": {
+    "channels": 2,
+    "signal_processes_per_channel": 1,
+    "gaussians_per_process": 3,
+    "bins_per_channel": 320,
+    "gaussians_per_channel": 3,
+    "root_version": "6.41.01",
+    "root_commit": "v6-39-99-2155-g14a58f74211",
+    "data_kind": "deterministic expected bin counts",
+    "per_channel": [
+      {
+        "name": "ch0",
+        "signal_yield": 60.0,
+        "background_yield": 1500.0,
+        "data_sum": 1560.0,
+        "data_entries": 320,
+        "signal_components": [
+          [
+            {
+              "mean": 125.38,
+              "sigma": 1.08,
+              "fraction": 0.5454545454545455
+            },
+            {
+              "mean": 125.42,
+              "sigma": 1.566,
+              "fraction": 0.27272727272727276
+            },
+            {
+              "mean": 125.46,
+              "sigma": 2.052,
+              "fraction": 0.18181818181818182
+            }
+          ]
+        ],
+        "background_parameters": [
+          "slope_ch0",
+          "bern2_c1_ch0",
+          "bern2_c2_ch0",
+          "bern3_c1_ch0",
+          "bern3_c2_ch0",
+          "bern3_c3_ch0"
+        ],
+        "background_alternatives": 3
+      },
+      {
+        "name": "ch1",
+        "signal_yield": 60.0,
+        "background_yield": 1500.0,
+        "data_sum": 1560.0,
+        "data_entries": 320,
+        "signal_components": [
+          [
+            {
+              "mean": 125.41546242479936,
+              "sigma": 1.0432241844694512,
+              "fraction": 0.5454545454545455
+            },
+            {
+              "mean": 125.45546242479936,
+              "sigma": 1.5126750674807041,
+              "fraction": 0.27272727272727276
+            },
+            {
+              "mean": 125.49546242479936,
+              "sigma": 1.9821259504919573,
+              "fraction": 0.18181818181818182
+            }
+          ]
+        ],
+        "background_parameters": [
+          "slope_ch1",
+          "bern2_c1_ch1",
+          "bern2_c2_ch1",
+          "bern3_c1_ch1",
+          "bern3_c2_ch1",
+          "bern3_c3_ch1"
+        ],
+        "background_alternatives": 3
+      }
+    ],
+    "t2w_options": "--for-fits --no-wrappers --optimize-simpdf-constraints cms --X-pack-asympows -m 125.38",
+    "fit_options": "-m 125.38 --algo none --setParameters r=1,pdfindex_ch0=1,pdfindex_ch1=1 --setParameterRanges r=0.5,1.5 --saveFitResult --saveWorkspace --saveNLL --cminDefaultMinimizerStrategy 0 --cminApproxPreFitTolerance 100 --cminFallbackAlgo Minuit2,Migrad,0:0.1 --X-rtd MINIMIZER_MaxCalls=9999999 --X-rtd MINIMIZER_analytic --X-rtd MINIMIZER_freezeDisassociatedParams --X-rtd MINIMIZER_multiMin_hideConstants --X-rtd MINIMIZER_multiMin_maskChannels=2 --X-rtd OPTIMIZE_BOUNDS=0 --X-rtd NO_INITIAL_SNAP --X-rtd CACHINGPDF_NOCLONE"
+  },
+  "structure": {
+    "data_entries": 640,
+    "data_sum": 3120.0,
+    "gaussians": 6,
+    "multipdfs": 2,
+    "parameter_names": [
+      "CMS_hgg_mass",
+      "r",
+      "MH",
+      "signal_norm",
+      "signal_norm_In",
+      "theta_scale",
+      "theta_scale_In",
+      "theta_resolution",
+      "theta_resolution_In",
+      "bkg_norm_ch0",
+      "bkg_norm_ch1",
+      "slope_ch0",
+      "bern2_c1_ch0",
+      "bern2_c2_ch0",
+      "bern3_c1_ch0",
+      "bern3_c2_ch0",
+      "bern3_c3_ch0",
+      "slope_ch1",
+      "bern2_c1_ch1",
+      "bern2_c2_ch1",
+      "bern3_c1_ch1",
+      "bern3_c2_ch1",
+      "bern3_c3_ch1"
+    ],
+    "nuisances": [
+      "signal_norm",
+      "theta_scale",
+      "theta_resolution"
+    ]
+  },
+  "wall_seconds": 16.03488674480468,
+  "resource_wall_seconds": 16.02,
+  "peak_rss_kib": 652852,
+  "timings": {
+    "Minimisation": 0.05029931800000001,
+    "NegativeG2LineSearch": 0.0,
+    "Seeding step": 0.014308572,
+    "Gradient to machine code": 0.11841199,
+    "Gradient generation": 0.12203059999999999,
+    "Function JIT": 13.3536564,
+    "NLL creation": 0.00944439
+  },
+  "raw_timings": {
+    "Minimisation": [
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 4.94392 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 5.97585 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.23651 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 2.41974 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 507.633 \u03bcs",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 3.66464 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 530.185 \u03bcs",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 5.27999 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.14915 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.60721 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 630.456 \u03bcs",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.13864 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.77365 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 3.89412 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.24052 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.25827 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 2.5987 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.2361 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.45782 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.16228 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.25723 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 925.914 \u03bcs",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.42491 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.54924 ms",
+      "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.43664 ms"
+    ],
+    "NegativeG2LineSearch": [],
+    "Seeding step": [
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 1.34928 ms",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 1.52438 ms",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 704.49 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 440.569 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 293.998 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 302.038 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 110.874 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 785.356 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 289.5 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 282.974 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 108.186 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 357.296 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 279.261 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 673.136 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 207.466 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 258.7 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 301.365 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 177.584 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 278.837 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 629.774 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 627.348 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 674.298 \u03bcs",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 1.30245 ms",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 1.3666 ms",
+      "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 982.812 \u03bcs"
+    ],
+    "Gradient to machine code": [
+      "[#1] INFO:Fitting -- Gradient IR to machine code time: 85.8998 ms",
+      "[#1] INFO:Fitting -- Gradient IR to machine code time: 22.6908 ms",
+      "[#1] INFO:Fitting -- Gradient IR to machine code time: 9.82139 ms"
+    ],
+    "Gradient generation": [
+      "[#1] INFO:Fitting -- Gradient generation time: 79.0649 ms",
+      "[#1] INFO:Fitting -- Gradient generation time: 32.6146 ms",
+      "[#1] INFO:Fitting -- Gradient generation time: 10.3511 ms"
+    ],
+    "Function JIT": [
+      "[#1] INFO:Fitting -- Function JIT time: 13.1702 s",
+      "[#1] INFO:Fitting -- Function JIT time: 119.723 ms",
+      "[#1] INFO:Fitting -- Function JIT time: 63.7334 ms"
+    ],
+    "NLL creation": [
+      "[#1] INFO:Fitting -- Creation of NLL object took 8.61195 ms",
+      "[#1] INFO:Fitting -- Creation of NLL object took 520.913 \u03bcs",
+      "[#1] INFO:Fitting -- Creation of NLL object took 311.527 \u03bcs"
+    ]
+  },
+  "stages": {
+    "Likelihood setup and compilation": {
+      "component_timings_seconds": {
+        "Minimisation": 0.006593933999999999,
+        "NegativeG2LineSearch": 0.0,
+        "Seeding step": 0.0049535080000000006,
+        "Gradient to machine code": 0.11841199,
+        "Gradient generation": 0.12203059999999999,
+        "Function JIT": 13.3536564,
+        "NLL creation": 0.00944439
+      },
+      "component_total_seconds": 13.615090822,
+      "raw_timings": {
+        "Minimisation": [
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.25723 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 925.914 \u03bcs",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.42491 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.54924 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.43664 ms"
+        ],
+        "NegativeG2LineSearch": [],
+        "Seeding step": [
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 627.348 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 674.298 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 1.30245 ms",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 1.3666 ms",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 982.812 \u03bcs"
+        ],
+        "Gradient to machine code": [
+          "[#1] INFO:Fitting -- Gradient IR to machine code time: 85.8998 ms",
+          "[#1] INFO:Fitting -- Gradient IR to machine code time: 22.6908 ms",
+          "[#1] INFO:Fitting -- Gradient IR to machine code time: 9.82139 ms"
+        ],
+        "Gradient generation": [
+          "[#1] INFO:Fitting -- Gradient generation time: 79.0649 ms",
+          "[#1] INFO:Fitting -- Gradient generation time: 32.6146 ms",
+          "[#1] INFO:Fitting -- Gradient generation time: 10.3511 ms"
+        ],
+        "Function JIT": [
+          "[#1] INFO:Fitting -- Function JIT time: 13.1702 s",
+          "[#1] INFO:Fitting -- Function JIT time: 119.723 ms",
+          "[#1] INFO:Fitting -- Function JIT time: 63.7334 ms"
+        ],
+        "NLL creation": [
+          "[#1] INFO:Fitting -- Creation of NLL object took 8.61195 ms",
+          "[#1] INFO:Fitting -- Creation of NLL object took 520.913 \u03bcs",
+          "[#1] INFO:Fitting -- Creation of NLL object took 311.527 \u03bcs"
+        ]
+      },
+      "minimizer_calls": 0,
+      "approximate_prefit_calls": 0,
+      "free_parameter_counts": {},
+      "reported_elapsed_seconds": [],
+      "iteration_counts": {
+        "minimizer_calls": 0,
+        "optimizer_steps": 0,
+        "reported_states": 0,
+        "calls_without_state_summary": 0
+      }
+    },
+    "Initial continuous fit (including approximate prefit)": {
+      "component_timings_seconds": {
+        "Minimisation": 0.01091977,
+        "NegativeG2LineSearch": 0.0,
+        "Seeding step": 0.00287366,
+        "Gradient to machine code": 0.0,
+        "Gradient generation": 0.0,
+        "Function JIT": 0.0,
+        "NLL creation": 0.0
+      },
+      "component_total_seconds": 0.01379343,
+      "raw_timings": {
+        "Minimisation": [
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 4.94392 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 5.97585 ms"
+        ],
+        "NegativeG2LineSearch": [],
+        "Seeding step": [
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 1.34928 ms",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 1.52438 ms"
+        ],
+        "Gradient to machine code": [],
+        "Gradient generation": [],
+        "Function JIT": [],
+        "NLL creation": []
+      },
+      "minimizer_calls": 2,
+      "approximate_prefit_calls": 1,
+      "free_parameter_counts": {
+        "10": 2
+      },
+      "reported_elapsed_seconds": [],
+      "iteration_counts": {
+        "minimizer_calls": 2,
+        "optimizer_steps": 6,
+        "reported_states": 10,
+        "calls_without_state_summary": 0
+      }
+    },
+    "Discrete background-model profiling": {
+      "component_timings_seconds": {
+        "Minimisation": 0.022449223999999997,
+        "NegativeG2LineSearch": 0.0,
+        "Seeding step": 0.004393137999999999,
+        "Gradient to machine code": 0.0,
+        "Gradient generation": 0.0,
+        "Function JIT": 0.0,
+        "NLL creation": 0.0
+      },
+      "component_total_seconds": 0.026842361999999995,
+      "raw_timings": {
+        "Minimisation": [
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.23651 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 2.41974 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 507.633 \u03bcs",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 3.66464 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 530.185 \u03bcs",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.14915 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.60721 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 630.456 \u03bcs",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.13864 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.77365 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.24052 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.25827 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 2.5987 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.2361 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.45782 ms"
+        ],
+        "NegativeG2LineSearch": [],
+        "Seeding step": [
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 704.49 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 440.569 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 293.998 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 302.038 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 110.874 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 289.5 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 282.974 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 108.186 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 357.296 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 279.261 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 207.466 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 258.7 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 301.365 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 177.584 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 278.837 \u03bcs"
+        ],
+        "Gradient to machine code": [],
+        "Gradient generation": [],
+        "Function JIT": [],
+        "NLL creation": []
+      },
+      "minimizer_calls": 15,
+      "approximate_prefit_calls": 0,
+      "free_parameter_counts": {
+        "4": 1,
+        "3": 7,
+        "1": 3,
+        "2": 4
+      },
+      "reported_elapsed_seconds": [
+        0.0127919,
+        0.01015,
+        0.0125189
+      ],
+      "iteration_counts": {
+        "minimizer_calls": 15,
+        "optimizer_steps": 30,
+        "reported_states": 60,
+        "calls_without_state_summary": 0
+      }
+    },
+    "Continuous refit at selected models": {
+      "component_timings_seconds": {
+        "Minimisation": 0.010336389999999999,
+        "NegativeG2LineSearch": 0.0,
+        "Seeding step": 0.002088266,
+        "Gradient to machine code": 0.0,
+        "Gradient generation": 0.0,
+        "Function JIT": 0.0,
+        "NLL creation": 0.0
+      },
+      "component_total_seconds": 0.012424656,
+      "raw_timings": {
+        "Minimisation": [
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 5.27999 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 3.89412 ms",
+          "Info in <Minuit2>: VariableMetricBuilder Stop iterating after 1.16228 ms"
+        ],
+        "NegativeG2LineSearch": [],
+        "Seeding step": [
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 785.356 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 673.136 \u03bcs",
+          "Info in <Minuit2>: MnSeedGenerator Evaluated function and gradient in 629.774 \u03bcs"
+        ],
+        "Gradient to machine code": [],
+        "Gradient generation": [],
+        "Function JIT": [],
+        "NLL creation": []
+      },
+      "minimizer_calls": 3,
+      "approximate_prefit_calls": 0,
+      "free_parameter_counts": {
+        "9": 1,
+        "8": 2
+      },
+      "reported_elapsed_seconds": [
+        0.00762987,
+        0.00594211,
+        0.00261188
+      ],
+      "iteration_counts": {
+        "minimizer_calls": 3,
+        "optimizer_steps": 6,
+        "reported_states": 12,
+        "calls_without_state_summary": 0
+      }
+    }
+  },
+  "iterations": {
+    "minimizer_calls": 20,
+    "optimizer_steps": 42,
+    "reported_states": 82,
+    "calls_without_state_summary": 0,
+    "iterations": 42,
+    "per_minimization": [
+      {
+        "call": 1,
+        "stage": "Initial continuous fit (including approximate prefit)",
+        "source_line": 52,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=100",
+        "approximate_prefit": true,
+        "free_parameters": 10,
+        "optimizer_steps": 3,
+        "reported_states": 5,
+        "raw_state_summaries": [
+          "Number of iterations 5"
+        ]
+      },
+      {
+        "call": 2,
+        "stage": "Initial continuous fit (including approximate prefit)",
+        "source_line": 294,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 10,
+        "optimizer_steps": 3,
+        "reported_states": 5,
+        "raw_state_summaries": [
+          "Number of iterations 5"
+        ]
+      },
+      {
+        "call": 3,
+        "stage": "Discrete background-model profiling",
+        "source_line": 541,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 4,
+        "optimizer_steps": 1,
+        "reported_states": 3,
+        "raw_state_summaries": [
+          "Number of iterations 3"
+        ]
+      },
+      {
+        "call": 4,
+        "stage": "Discrete background-model profiling",
+        "source_line": 656,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 3,
+        "optimizer_steps": 4,
+        "reported_states": 6,
+        "raw_state_summaries": [
+          "Number of iterations 6"
+        ]
+      },
+      {
+        "call": 5,
+        "stage": "Discrete background-model profiling",
+        "source_line": 851,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 1,
+        "optimizer_steps": 1,
+        "reported_states": 3,
+        "raw_state_summaries": [
+          "Number of iterations 3"
+        ]
+      },
+      {
+        "call": 6,
+        "stage": "Discrete background-model profiling",
+        "source_line": 945,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 3,
+        "optimizer_steps": 4,
+        "reported_states": 6,
+        "raw_state_summaries": [
+          "Number of iterations 6"
+        ]
+      },
+      {
+        "call": 7,
+        "stage": "Discrete background-model profiling",
+        "source_line": 1139,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 1,
+        "optimizer_steps": 1,
+        "reported_states": 3,
+        "raw_state_summaries": [
+          "Number of iterations 3"
+        ]
+      },
+      {
+        "call": 8,
+        "stage": "Continuous refit at selected models",
+        "source_line": 1232,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 9,
+        "optimizer_steps": 3,
+        "reported_states": 5,
+        "raw_state_summaries": [
+          "Number of iterations 5"
+        ]
+      },
+      {
+        "call": 9,
+        "stage": "Discrete background-model profiling",
+        "source_line": 1472,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 3,
+        "optimizer_steps": 1,
+        "reported_states": 3,
+        "raw_state_summaries": [
+          "Number of iterations 3"
+        ]
+      },
+      {
+        "call": 10,
+        "stage": "Discrete background-model profiling",
+        "source_line": 1580,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 3,
+        "optimizer_steps": 2,
+        "reported_states": 4,
+        "raw_state_summaries": [
+          "Number of iterations 4"
+        ]
+      },
+      {
+        "call": 11,
+        "stage": "Discrete background-model profiling",
+        "source_line": 1720,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 1,
+        "optimizer_steps": 1,
+        "reported_states": 3,
+        "raw_state_summaries": [
+          "Number of iterations 3"
+        ]
+      },
+      {
+        "call": 12,
+        "stage": "Discrete background-model profiling",
+        "source_line": 1814,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 2,
+        "optimizer_steps": 2,
+        "reported_states": 4,
+        "raw_state_summaries": [
+          "Number of iterations 4"
+        ]
+      },
+      {
+        "call": 13,
+        "stage": "Discrete background-model profiling",
+        "source_line": 1942,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 3,
+        "optimizer_steps": 3,
+        "reported_states": 5,
+        "raw_state_summaries": [
+          "Number of iterations 5"
+        ]
+      },
+      {
+        "call": 14,
+        "stage": "Continuous refit at selected models",
+        "source_line": 2106,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 8,
+        "optimizer_steps": 2,
+        "reported_states": 4,
+        "raw_state_summaries": [
+          "Number of iterations 4"
+        ]
+      },
+      {
+        "call": 15,
+        "stage": "Discrete background-model profiling",
+        "source_line": 2306,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 2,
+        "optimizer_steps": 1,
+        "reported_states": 3,
+        "raw_state_summaries": [
+          "Number of iterations 3"
+        ]
+      },
+      {
+        "call": 16,
+        "stage": "Discrete background-model profiling",
+        "source_line": 2406,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 2,
+        "optimizer_steps": 2,
+        "reported_states": 4,
+        "raw_state_summaries": [
+          "Number of iterations 4"
+        ]
+      },
+      {
+        "call": 17,
+        "stage": "Discrete background-model profiling",
+        "source_line": 2534,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 3,
+        "optimizer_steps": 3,
+        "reported_states": 5,
+        "raw_state_summaries": [
+          "Number of iterations 5"
+        ]
+      },
+      {
+        "call": 18,
+        "stage": "Discrete background-model profiling",
+        "source_line": 2700,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 2,
+        "optimizer_steps": 2,
+        "reported_states": 4,
+        "raw_state_summaries": [
+          "Number of iterations 4"
+        ]
+      },
+      {
+        "call": 19,
+        "stage": "Discrete background-model profiling",
+        "source_line": 2828,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 3,
+        "optimizer_steps": 2,
+        "reported_states": 4,
+        "raw_state_summaries": [
+          "Number of iterations 4"
+        ]
+      },
+      {
+        "call": 20,
+        "stage": "Continuous refit at selected models",
+        "source_line": 2965,
+        "configuration": "Minimization configured with Type=Minuit2, Algo=Migrad, strategy=0, tolerance=0.1",
+        "approximate_prefit": false,
+        "free_parameters": 8,
+        "optimizer_steps": 1,
+        "reported_states": 3,
+        "raw_state_summaries": [
+          "Number of iterations 3"
+        ]
+      }
+    ],
+    "stages": {
+      "Likelihood setup and compilation": {
+        "minimizer_calls": 0,
+        "optimizer_steps": 0,
+        "reported_states": 0,
+        "calls_without_state_summary": 0
+      },
+      "Initial continuous fit (including approximate prefit)": {
+        "minimizer_calls": 2,
+        "optimizer_steps": 6,
+        "reported_states": 10,
+        "calls_without_state_summary": 0
+      },
+      "Discrete background-model profiling": {
+        "minimizer_calls": 15,
+        "optimizer_steps": 30,
+        "reported_states": 60,
+        "calls_without_state_summary": 0
+      },
+      "Continuous refit at selected models": {
+        "minimizer_calls": 3,
+        "optimizer_steps": 6,
+        "reported_states": 12,
+        "calls_without_state_summary": 0
+      }
+    }
+  },
+  "floating_parameter_evidence": {
+    "Initial continuous fit (including approximate prefit)": [
+      "bern2_c1_ch0",
+      "bern2_c1_ch1",
+      "bern2_c2_ch0",
+      "bern2_c2_ch1",
+      "bkg_norm_ch0",
+      "bkg_norm_ch1",
+      "r",
+      "signal_norm",
+      "theta_resolution",
+      "theta_scale"
+    ],
+    "Discrete background-model profiling": [
+      "bern2_c1_ch0",
+      "bern2_c1_ch1",
+      "bern2_c2_ch0",
+      "bern2_c2_ch1",
+      "bern3_c1_ch0",
+      "bern3_c1_ch1",
+      "bern3_c2_ch0",
+      "bern3_c2_ch1",
+      "bern3_c3_ch0",
+      "bern3_c3_ch1",
+      "slope_ch0",
+      "slope_ch1"
+    ],
+    "Continuous refit at selected models": [
+      "bern2_c1_ch0",
+      "bern2_c2_ch0",
+      "bkg_norm_ch0",
+      "bkg_norm_ch1",
+      "r",
+      "signal_norm",
+      "slope_ch0",
+      "slope_ch1",
+      "theta_resolution",
+      "theta_scale"
+    ],
+    "Likelihood setup and compilation": [
+      "bkg_norm_ch0",
+      "bkg_norm_ch1",
+      "r",
+      "signal_norm",
+      "slope_ch0",
+      "slope_ch1",
+      "theta_resolution",
+      "theta_scale"
+    ]
+  },
+  "fit_result": {
+    "status": 0,
+    "covariance_quality": 3,
+    "edm": 4.70525160712558e-09,
+    "minimum_nll": 1.9999948588550658,
+    "parameters": {
+      "bern2_c1_ch0": {
+        "value": 0.1014450149067481,
+        "error": 0.0
+      },
+      "bern2_c1_ch1": {
+        "value": 0.06759877397179526,
+        "error": 0.0
+      },
+      "bern2_c2_ch0": {
+        "value": 0.11653780721960788,
+        "error": 0.0
+      },
+      "bern2_c2_ch1": {
+        "value": 0.10507058470398721,
+        "error": 0.0
+      },
+      "bern3_c1_ch0": {
+        "value": 0.25889227413963384,
+        "error": 0.0
+      },
+      "bern3_c1_ch1": {
+        "value": 0.2188256893375584,
+        "error": 0.0
+      },
+      "bern3_c2_ch0": {
+        "value": 0.18573685755566766,
+        "error": 0.0
+      },
+      "bern3_c2_ch1": {
+        "value": 0.16905181232387823,
+        "error": 0.0
+      },
+      "bern3_c3_ch0": {
+        "value": 0.08877503030915238,
+        "error": 0.0
+      },
+      "bern3_c3_ch1": {
+        "value": 0.07499814673235453,
+        "error": 0.0
+      },
+      "bkg_norm_ch0": {
+        "value": 1.0000263963905598,
+        "error": 0.02654945478742826
+      },
+      "bkg_norm_ch1": {
+        "value": 1.000026964226803,
+        "error": 0.026536726128010557
+      },
+      "r": {
+        "value": 0.999297074113412,
+        "error": 0.1607289455868759
+      },
+      "signal_norm": {
+        "value": 1.4288526002032616e-05,
+        "error": 0.9966219151120886
+      },
+      "slope_ch0": {
+        "value": -0.029999622382923294,
+        "error": 0.0012768627801915816
+      },
+      "slope_ch1": {
+        "value": -0.031999523980800436,
+        "error": 0.001298463747697775
+      },
+      "theta_resolution": {
+        "value": 0.0011586153166561423,
+        "error": 0.9808288938141514
+      },
+      "theta_scale": {
+        "value": 0.00010309790775375792,
+        "error": 0.8630193225185829
+      }
+    },
+    "background_indices": {
+      "pdfindex_ch0": 0,
+      "pdfindex_ch1": 0
+    },
+    "final_signal_constant_flags": {
+      "r": false,
+      "theta_scale": false,
+      "theta_resolution": false,
+      "signal_norm": false
+    },
+    "limit": [
+      {
+        "r": 0.9992970824241638,
+        "deltaNLL": 0.0,
+        "nll": -103.15332220385426,
+        "nll0": -6759.976799513143
+      }
+    ]
+  }
+}

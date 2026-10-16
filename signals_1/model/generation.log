@@ -1,0 +1,2 @@
+TClassTable::Add:0: RuntimeWarning: class RooMultiPdf already in TClassTable
+Generated /home/hep/tr1123/CHEP26/diagnostics/dummy_hgg_stxs/scaling/signals_1/model
